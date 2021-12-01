@@ -1,0 +1,33 @@
+//Box-sizing
+@mixin BSBorderBox {
+  box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  -webkit-box-sizing: border-box;
+}
+
+//Display-justifycontent-alignitem
+@mixin Dflex {
+  display: flex;
+  display: -ms-flexbox;
+  display: -webkit-flex;
+}
+@mixin DflexCustom($j, $a) {
+  @include Dflex;
+  justify-content: $j;
+  align-items: $a;
+}
+
+@mixin Dgrid {
+  display: grid;
+  display: -moz-grid;
+  display: -ms-grid;
+}
+
+//position absolute
+@mixin PosAbsolute($top, $right, $bottom, $left) {
+  position: absolute;
+  top: $top;
+  right: $right;
+  bottom: $bottom;
+  left: $left;
+}

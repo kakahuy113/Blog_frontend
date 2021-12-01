@@ -11,18 +11,12 @@ body {
   scroll-behavior: smooth;
 }
 
-h1,
-h2,
-h3,
-h4,
-h5,
-h6,
 button,
 p {
   font-family: Roboto-Regular;
   margin: inherit;
   font-weight: initial;
-  color: initial;
+  color: inherit;
 }
 
 h1,
@@ -44,7 +38,9 @@ h3,
 h4,
 h5,
 h6 {
+  font-family: Roboto-Bold;
   margin: 15px auto;
+  color: inherit;
   font-weight: bold;
 }
 

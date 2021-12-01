@@ -1,4 +1,12 @@
+//font
 @import "./base/fonts";
-
+@import "./base/variables";
+//stuff
 @import "~antd/dist/antd.css";
 @import "./base/resets";
+@import "./helpers/mixin";
+// layout
+@import "./layouts/header";
+
+//utilities
+@import "./base/utilities";
